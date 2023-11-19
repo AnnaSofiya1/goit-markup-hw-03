@@ -167,14 +167,19 @@ body {
 
 
 .tagline {
-    color: #FFF;
-    text-align: center;
-    font-size: 56px;
+    font-family: Roboto;
+    color: #FFFFFF;
     font-weight: 700;
+    font-size: 56px;
     line-height: 1.07;
-    /* 107.143% */
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -213,7 +218,7 @@ body {
  }
 
  .features-list-items {
-     width: calc((100%-72px)/4);
+     width: calc((100% - 3 * 24px) / 4);
  }
 
 .info-section {
@@ -293,6 +298,7 @@ body {
 
 .section-portfolio {
     background: #FFF;
+    padding: 120px 0 120px 0
 }
 .portfolio-title {
     font-family: "Roboto", sans-serif;
@@ -342,7 +348,7 @@ body {
 }
 
 .list-container {
-    padding: 32px 0;
+    padding: 32px 0 32px
 }
 
 .portfolio-list-item {
