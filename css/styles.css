@@ -32,7 +32,7 @@ img {
     height:auto;
 }
 
-.invisible {
+.invisible { 
     position: absolute;
     width: 1px;
     height: 1px;
@@ -55,7 +55,7 @@ body {
 
 
 /* container */
-.container {
+.container { 
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -63,11 +63,11 @@ body {
 
 
 /* header */
-.head-top {
+.head-top { 
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container-top {
+.container-top { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,13 +77,13 @@ body {
     margin-left: auto;
 }
 
-.navigation-top {
+.navigation-top { 
     display: flex;
     align-items: center;
     margin-right: 76px;
 }
 
-.logo-top {
+.logo-top { 
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -97,7 +97,7 @@ body {
 
 
 
-.logo-studio {
+.logo-studio { 
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -108,7 +108,7 @@ body {
     text-transform: uppercase;
 }
 
-.link-top {
+.link-top { 
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -119,7 +119,7 @@ body {
     color: #404BBF;
 }
 
-.nav-link{
+.nav-link{ 
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -130,11 +130,11 @@ body {
     display: block;
 }
 
-.contacts {
+.contacts { 
     font-style: normal;
 }
 
-.contact-info {
+.contact-info { 
     color:#434455;
     font-style: normal;
     font-size: 16px;
@@ -147,7 +147,7 @@ body {
     gap: 40px;
 }
 
-.adress-link {
+.adress-link { 
     color: #434455;
     padding: 24px 0;
     display: block;
@@ -160,13 +160,13 @@ body {
 }
 
 .tagline-button {
-    padding: 188px 0;
+    padding: 188px 0; 
     background-color: #2E2F42;
 }
 
 
 
-.tagline {
+.tagline { 
     font-family: Roboto;
     color: #FFFFFF;
     font-weight: 700;
@@ -180,7 +180,7 @@ body {
     margin-right: auto;
 }
 
-.button {
+.button { 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -217,8 +217,8 @@ body {
     align-items: flex-start;
  }
 
- .features-list-items {
-    width: calc((100%-72px)/4);
+ .feature-list-items {
+    width: calc((100% - 72px) /4);
  }
 
 .info-section {
